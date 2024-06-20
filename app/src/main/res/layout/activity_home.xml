@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".HomeActivity"
+        android:layout_centerVertical="true"
+        >
+        <View
+            android:id="@+id/top1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/bg"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/iiitu_clubs"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:id="@+id/titleof"
+            />
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/titleof"
+            android:layout_centerInParent="true"
+
+            android:src="@drawable/iiitu"/>
+
+        <LinearLayout
+            android:layout_marginTop="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/ll1"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                app:cardCornerRadius="15dp"
+                android:layout_weight="1"
+                app:cardElevation="12dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:id="@+id/eunoia"
+                android:layout_margin="15dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/eunoia"
+                        android:layout_gravity="center_horizontal"
+
+                        />
+                    <TextView
+                        android:id="@+id/tveu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/eunoia"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+                android:id="@+id/force"
+                android:layout_weight="1"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+
+                android:layout_margin="15dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/force"
+                        android:layout_gravity="center_horizontal"
+
+                        />
+                    <TextView
+                        android:id="@+id/tvfo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/force"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/ll2"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/ll1">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+                android:layout_weight="1"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:id="@+id/zenith"
+                android:layout_margin="15dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/zenith"
+                        android:layout_gravity="center_horizontal"
+
+                        />
+                    <TextView
+                        android:id="@+id/tvze"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zenith"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+                android:layout_weight="1"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:id="@+id/pixcel"
+                android:layout_margin="15dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/picel"
+                        android:layout_gravity="center_horizontal"
+
+                        />
+                    <TextView
+                        android:id="@+id/tvpi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/picxcel"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/ll3"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/ll2">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+                android:layout_weight="1"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:id="@+id/aavesh"
+                android:layout_margin="15dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/aavesh"
+                        android:layout_gravity="center_horizontal"
+
+                        />
+                    <TextView
+                        android:id="@+id/tvav"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/aavesh"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp"
+                android:layout_weight="1"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:id="@+id/epmoc"
+                android:layout_margin="15dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/epmoc"
+                        android:layout_gravity="center_horizontal"
+
+                        />
+                    <TextView
+                        android:id="@+id/tvep"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/epmoc"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+        <!--    <GridLayout-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="match_parent"-->
+        <!--        android:layout_below="@+id/top1"-->
+        <!--        android:rowCount="3"-->
+        <!--        android:columnCount="2"-->
+        <!--        android:layout_marginTop="-80dp"-->
+        <!--        android:layout_marginLeft="15dp"-->
+        <!--        android:layout_marginRight="15dp"-->
+        <!--        >-->
+        <!--        <androidx.cardview.widget.CardView-->
+        <!--            android:layout_width="150dp"-->
+        <!--            android:layout_height="150dp"-->
+        <!--            app:cardCornerRadius="15dp"-->
+        <!--            app:cardElevation="12dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+
+        <!--            android:layout_margin="15dp"-->
+        <!--            >-->
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:orientation="vertical"-->
+        <!--                android:gravity="center">-->
+        <!--                <ImageView-->
+        <!--                    android:layout_width="80dp"-->
+        <!--                    android:layout_height="80dp"-->
+        <!--                    android:background="@drawable/eunoia"-->
+        <!--                    android:layout_gravity="center_horizontal"-->
+
+        <!--                    />-->
+        <!--                <TextView-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:text="@string/eunoia"-->
+        <!--                    android:layout_gravity="center_horizontal"-->
+        <!--                    android:textSize="20sp"/>-->
+
+        <!--            </LinearLayout>-->
+
+
+
+        <!--        </androidx.cardview.widget.CardView>-->
+        <!--        <androidx.cardview.widget.CardView-->
+        <!--            android:layout_width="150dp"-->
+        <!--            android:layout_height="150dp"-->
+        <!--            app:cardCornerRadius="15dp"-->
+        <!--            app:cardElevation="12dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+
+        <!--            android:layout_margin="15dp"-->
+        <!--            >-->
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:orientation="vertical"-->
+        <!--                android:gravity="center">-->
+        <!--                <ImageView-->
+        <!--                    android:layout_width="80dp"-->
+        <!--                    android:layout_height="80dp"-->
+        <!--                    android:background="@drawable/force"-->
+        <!--                    android:layout_gravity="center_horizontal"-->
+
+        <!--                    />-->
+        <!--                <TextView-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:text="@string/force"-->
+        <!--                    android:layout_gravity="center_horizontal"-->
+        <!--                    android:textSize="20sp"/>-->
+
+        <!--            </LinearLayout>-->
+
+
+
+        <!--        </androidx.cardview.widget.CardView>-->
+        <!--        <androidx.cardview.widget.CardView-->
+        <!--            android:layout_width="150dp"-->
+        <!--            android:layout_height="150dp"-->
+        <!--            app:cardCornerRadius="15dp"-->
+        <!--            app:cardElevation="12dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+
+        <!--            android:layout_margin="15dp"-->
+        <!--            >-->
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:orientation="vertical"-->
+        <!--                android:gravity="center">-->
+        <!--                <ImageView-->
+        <!--                    android:layout_width="80dp"-->
+        <!--                    android:layout_height="80dp"-->
+        <!--                    android:background="@drawable/zenith"-->
+        <!--                    android:layout_gravity="center_horizontal"-->
+
+        <!--                    />-->
+        <!--                <TextView-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:text="@string/zenith"-->
+        <!--                    android:layout_gravity="center_horizontal"-->
+        <!--                    android:textSize="20sp"/>-->
+
+        <!--            </LinearLayout>-->
+
+
+
+        <!--        </androidx.cardview.widget.CardView>-->
+        <!--        <androidx.cardview.widget.CardView-->
+        <!--            android:layout_width="150dp"-->
+        <!--            android:layout_height="150dp"-->
+        <!--            app:cardCornerRadius="15dp"-->
+        <!--            app:cardElevation="12dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+
+        <!--            android:layout_margin="15dp"-->
+        <!--            >-->
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:orientation="vertical"-->
+        <!--                android:gravity="center">-->
+        <!--                <ImageView-->
+        <!--                    android:layout_width="80dp"-->
+        <!--                    android:layout_height="80dp"-->
+        <!--                    android:background="@drawable/picel"-->
+        <!--                    android:layout_gravity="center_horizontal"-->
+
+        <!--                    />-->
+        <!--                <TextView-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:text="@string/pixcel"-->
+        <!--                    android:layout_gravity="center_horizontal"-->
+        <!--                    android:textSize="20sp"/>-->
+
+        <!--            </LinearLayout>-->
+
+
+
+        <!--        </androidx.cardview.widget.CardView>-->
+        <!--        <androidx.cardview.widget.CardView-->
+        <!--            android:layout_width="150dp"-->
+        <!--            android:layout_height="150dp"-->
+        <!--            app:cardCornerRadius="15dp"-->
+        <!--            app:cardElevation="12dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+
+        <!--            android:layout_margin="15dp"-->
+        <!--            >-->
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:orientation="vertical"-->
+        <!--                android:gravity="center">-->
+        <!--                <ImageView-->
+        <!--                    android:layout_width="80dp"-->
+        <!--                    android:layout_height="80dp"-->
+        <!--                    android:background="@drawable/aavesh"-->
+        <!--                    android:layout_gravity="center_horizontal"-->
+
+        <!--                    />-->
+        <!--                <TextView-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:text="@string/aavesh"-->
+        <!--                    android:layout_gravity="center_horizontal"-->
+        <!--                    android:textSize="20sp"/>-->
+
+        <!--            </LinearLayout>-->
+
+
+
+        <!--        </androidx.cardview.widget.CardView>-->
+        <!--        <androidx.cardview.widget.CardView-->
+        <!--            android:layout_width="150dp"-->
+        <!--            android:layout_height="150dp"-->
+        <!--            app:cardCornerRadius="15dp"-->
+        <!--            app:cardElevation="12dp"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_rowWeight="1"-->
+
+        <!--            android:layout_margin="15dp"-->
+        <!--            >-->
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:orientation="vertical"-->
+        <!--                android:gravity="center">-->
+        <!--                <ImageView-->
+        <!--                    android:layout_width="80dp"-->
+        <!--                    android:layout_height="80dp"-->
+        <!--                    android:background="@drawable/epmoc"-->
+        <!--                    android:layout_gravity="center_horizontal"-->
+
+        <!--                    />-->
+        <!--                <TextView-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:text="@string/epmoc"-->
+        <!--                    android:layout_gravity="center_horizontal"-->
+        <!--                    android:textSize="20sp"/>-->
+
+        <!--            </LinearLayout>-->
+
+
+
+        <!--        </androidx.cardview.widget.CardView>-->
+        <!--    </GridLayout>-->
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/background2"
+    tools:context="com.example.progothon.epmoc">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            android:layout_weight="1"
+            app:cardElevation="12dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:id="@+id/card1"
+            android:layout_margin="15dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="15dp"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/aavesh"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="15dp"
+                    android:layout_margin="10dp"
+
+
+
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="This Club represents the Electronic society of IIITU."/>
+
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+        <!--        <ImageView-->
+        <!--            android:layout_margin="10dp"-->
+        <!--            android:layout_width="100dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:src="@drawable/eunoia"-->
+        <!--            />-->
+        <!--        <TextView-->
+        <!--            android:layout_marginTop="30dp"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="This Club Reppresents the Literary Society of IIITU"-->
+        <!--            android:textColor="@color/white"-->
+        <!--            android:textSize="18sp"-->
+        <!--            />-->
+
+    </LinearLayout>
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="UPCOMING EVENTS"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:background="@drawable/box2"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvaavesh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        tools:listitem="@layout/event_list" />
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:orientation="vertical"-->
+    <!--        >-->
+    <!--        <HorizontalScrollView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:fillViewport="true">-->
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:orientation="horizontal">-->
+    <!--                <androidx.cardview.widget.CardView-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    app:cardCornerRadius="15dp"-->
+
+    <!--                    app:cardElevation="12dp"-->
+
+    <!--                    android:layout_margin="15dp"-->
+    <!--                    >-->
+    <!--                    <LinearLayout-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:orientation="vertical"-->
+    <!--                        android:gravity="center">-->
+
+    <!--                        <ImageView-->
+    <!--                            android:id="@+id/euimev1"-->
+    <!--                            android:layout_width="match_parent"-->
+    <!--                            android:layout_height="150dp"-->
+    <!--                            android:layout_gravity="center_horizontal"-->
+    <!--                            android:background="@drawable/download"-->
+
+    <!--                            />-->
+
+    <!--                        <TextView-->
+    <!--                            android:id="@+id/tveuevt1"-->
+    <!--                            android:layout_width="300dp"-->
+    <!--                            android:layout_height="48dp"-->
+    <!--                            android:text="Event1"-->
+    <!--                            android:textStyle="bold"-->
+    <!--                            android:padding="10dp"-->
+    <!--                            android:textAlignment="center"-->
+    <!--                            android:layout_gravity="center_horizontal"-->
+    <!--                            android:textSize="20sp"/>-->
+
+    <!--                    </LinearLayout>-->
+
+
+
+    <!--                </androidx.cardview.widget.CardView>-->
+    <!--                <androidx.cardview.widget.CardView-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    app:cardCornerRadius="15dp"-->
+
+    <!--                    app:cardElevation="12dp"-->
+
+    <!--                    android:layout_margin="15dp"-->
+    <!--                    >-->
+    <!--                    <LinearLayout-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:orientation="vertical"-->
+    <!--                        android:gravity="center">-->
+    <!--                        <ImageView-->
+    <!--                            android:layout_width="match_parent"-->
+    <!--                            android:layout_height="150dp"-->
+    <!--                            android:background="@drawable/fest"-->
+    <!--                            android:layout_gravity="center_horizontal"-->
+
+    <!--                            />-->
+    <!--                        <TextView-->
+    <!--                            android:layout_width="300dp"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:text="Event2"-->
+    <!--                            android:textStyle="bold"-->
+    <!--                            android:padding="10dp"-->
+    <!--                            android:textAlignment="center"-->
+    <!--                            android:layout_gravity="center_horizontal"-->
+    <!--                            android:textSize="20sp"/>-->
+
+    <!--                    </LinearLayout>-->
+
+
+
+    <!--                </androidx.cardview.widget.CardView>-->
+    <!--                <androidx.cardview.widget.CardView-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    app:cardCornerRadius="15dp"-->
+
+    <!--                    app:cardElevation="12dp"-->
+
+    <!--                    android:layout_margin="15dp"-->
+    <!--                    >-->
+    <!--                    <LinearLayout-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:orientation="vertical"-->
+    <!--                        android:gravity="center">-->
+    <!--                        <ImageView-->
+    <!--                            android:layout_width="match_parent"-->
+    <!--                            android:layout_height="150dp"-->
+    <!--                            android:background="@drawable/openmic"-->
+    <!--                            android:layout_gravity="center_horizontal"-->
+
+    <!--                            />-->
+    <!--                        <TextView-->
+    <!--                            android:layout_width="300dp"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:text="Event3"-->
+    <!--                            android:textStyle="bold"-->
+    <!--                            android:padding="10dp"-->
+    <!--                            android:textAlignment="center"-->
+    <!--                            android:layout_gravity="center_horizontal"-->
+    <!--                            android:textSize="20sp"/>-->
+
+    <!--                    </LinearLayout>-->
+
+
+
+    <!--                </androidx.cardview.widget.CardView>-->
+    <!--                <androidx.cardview.widget.CardView-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    app:cardCornerRadius="15dp"-->
+
+    <!--                    app:cardElevation="12dp"-->
+
+    <!--                    android:layout_margin="15dp"-->
+    <!--                    >-->
+    <!--                    <LinearLayout-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:orientation="vertical"-->
+    <!--                        android:gravity="center">-->
+    <!--                        <ImageView-->
+    <!--                            android:layout_width="match_parent"-->
+    <!--                            android:layout_height="150dp"-->
+    <!--                            android:background="@drawable/shayari"-->
+    <!--                            android:layout_gravity="center_horizontal"-->
+
+    <!--                            />-->
+    <!--                        <TextView-->
+    <!--                            android:layout_width="300dp"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:text="Event4"-->
+    <!--                            android:textStyle="bold"-->
+    <!--                            android:padding="10dp"-->
+    <!--                            android:textAlignment="center"-->
+    <!--                            android:layout_gravity="center_horizontal"-->
+    <!--                            android:textSize="20sp"/>-->
+
+    <!--                    </LinearLayout>-->
+
+
+
+    <!--                </androidx.cardview.widget.CardView>-->
+
+
+
+
+
+
+    <!--            </LinearLayout>-->
+
+
+    <!--        </HorizontalScrollView>-->
+
+
+
+    <!--    </LinearLayout>-->
+
+</LinearLayout>

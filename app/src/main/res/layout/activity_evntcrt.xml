@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Evntcrt">
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create New Event"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+
+            />
+        <!-- Assuming you have a Spinner in your layout -->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_margin="10dp">
+
+            <Spinner
+                android:id="@+id/clubSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:entries="@array/clubs"
+                android:autofillHints="Club"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_margin="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/evnttitl"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="@string/event_title"
+                android:textStyle="bold"
+
+                android:inputType="textCapWords"
+                android:textColor="#000000"
+                android:textColorHint="#979595"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_margin="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/dscrptn"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Description"
+                android:textStyle="bold"
+
+                android:inputType="textCapWords"
+                android:textColor="#000000"
+                android:textColorHint="#979595"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_margin="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/vnue"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Venue"
+                android:textStyle="bold"
+
+                android:inputType="textCapWords"
+                android:textColor="#000000"
+                android:textColorHint="#979595"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_margin="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Date"
+                android:textStyle="bold"
+
+                android:inputType="textCapWords"
+                android:textColor="#000000"
+                android:textColorHint="#979595"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_margin="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tim"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Time"
+                android:textStyle="bold"
+
+                android:inputType="textCapWords"
+                android:textColor="#000000"
+                android:textColorHint="#979595"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_margin="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Contact"
+                android:textStyle="bold"
+
+                android:inputType="textCapWords"
+                android:textColor="#000000"
+                android:textColorHint="#979595"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add attachment:"
+                android:textSize="20sp"
+                android:layout_gravity="left"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+
+                />
+            <ImageView
+                android:id="@+id/atchmnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gallery"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                />
+            <ImageView
+                android:id="@+id/uploadPdfButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_attach_file_24"
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/uploadButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            android:textStyle="bold"
+
+            android:backgroundTint="#03A9F4"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

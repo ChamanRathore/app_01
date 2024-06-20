@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PROGOTHON</string>
+    <string name="login">Login</string>
+    <string name="Email">Email</string>
+    <string name="password">Password</string>
+    <string name="Button">Button</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="confirmpass">Confirmpass</string>
+    <string name="epmoc">Epmoc</string>
+    <string name="iiitu_clubs">IIITU CLUBS</string>
+    <string name="force">Force</string>
+    <string name="eunoia">Eunoia</string>
+    <string name="zenith">Zenith</string>
+    <string name="pixcel">Pixcel</string>
+    <string name="aavesh">Aavesh</string>
+    <string name="not_yet_registered_signup">Not yet Registered? Signup</string>
+    <string name="event">EVENT</string>
+    <string name="picxcel">pixel</string>
+    <string name="name">name</string>
+    <string name="event_title">Event Title</string>
+</resources>

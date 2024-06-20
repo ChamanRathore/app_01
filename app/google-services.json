@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "927972320451",
+    "project_id": "progothon",
+    "storage_bucket": "progothon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927972320451:android:8d745d5f0500ee1561ae76",
+        "android_client_info": {
+          "package_name": "com.example.progothon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-J1--sOs5ydr0TXErg_ZE-0xr7509jXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

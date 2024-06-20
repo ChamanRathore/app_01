@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LOGIN"
+    android:padding="16dp"
+    android:background="@drawable/background">
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/iiitu"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IIITU EVENT CONNECT"
+        android:textSize="25sp"
+        android:padding="10dp"
+
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/box"
+
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/Email"
+            android:hint="@string/Email"
+
+            android:textColorHint="@color/white"
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/password"
+            android:hint="@string/password"
+
+            android:textColorHint="@color/white"
+            />
+
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Btnlog"
+        android:text="@string/login"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:id="@+id/signup"
+        android:text="@string/not_yet_registered_signup"
+        android:textSize="11sp"
+        android:padding="7dp"
+        android:textColor="@color/black"
+        />
+
+
+
+</LinearLayout>
