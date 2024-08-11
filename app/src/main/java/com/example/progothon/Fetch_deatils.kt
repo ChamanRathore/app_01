@@ -16,6 +16,7 @@ class Fetch_deatils : AppCompatActivity() {
     private lateinit var date1: TextView
     private lateinit var time1: TextView
     private lateinit var image: ImageView
+
     private lateinit var contact1: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
